@@ -9,7 +9,7 @@ from urllib import urlopen
 import requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="EnwoLaFWgvdJbWmr8Mtf.QhGqLH2iiOIsf/8oTKjIZW.u3TQVXEs+CDIeH8y6wZ60HkcPPvaIhWxhemf5t5eFq0=")
+cl.login(qr=True)
 
 
 ki = kk = kc = kd = ke = kf = cl
